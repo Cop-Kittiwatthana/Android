@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbhh"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="137dp"
+                android:background="@drawable/tti0" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="177dp"
+                android:layout_height="181dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bubble"
+                android:onClick="history"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="102dp"
+                    android:layout_height="107dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="39dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="37dp"
+                    android:layout_marginBottom="72dp"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="30dp"
+                    android:maxHeight="30dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_hiss" />
+
+                <TextView
+                    android:id="@+id/btnShow1"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginRight="9dp"
+                    android:layout_marginBottom="110dp"
+                    android:gravity="center"
+                    android:onClick="history"
+                    android:text="History"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="177dp"
+                    android:layout_height="181dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:onClick="allactivity"
+                    android:background="@drawable/bubble2">
+
+                    <ImageView
+                        android:layout_width="102dp"
+                        android:layout_height="107dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="39dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="37dp"
+                        android:layout_marginBottom="72dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="30dp"
+                        android:maxHeight="30dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_pic" />
+
+                    <TextView
+                        android:id="@+id/btnShow2"
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="120dp"
+                        android:layout_marginRight="9dp"
+                        android:layout_marginBottom="110dp"
+                        android:gravity="center"
+                        android:text="Photo"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="177dp"
+                    android:layout_height="181dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/bubble3"
+                    android:onClick="comment"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="102dp"
+                        android:layout_height="107dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="39dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="37dp"
+                        android:layout_marginBottom="72dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="30dp"
+                        android:maxHeight="30dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_com" />
+
+                    <TextView
+                        android:id="@+id/btnShow4"
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="120dp"
+                        android:layout_marginRight="9dp"
+                        android:layout_marginBottom="110dp"
+                        android:gravity="center"
+                        android:text="Comment"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="177dp"
+                    android:layout_height="181dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/bubble4"
+                    android:onClick="call"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="102dp"
+                        android:layout_height="107dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="39dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="37dp"
+                        android:layout_marginBottom="72dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="30dp"
+                        android:maxHeight="30dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_call" />
+
+                    <TextView
+                        android:id="@+id/btnShow3"
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="120dp"
+                        android:layout_marginRight="9dp"
+                        android:layout_marginBottom="110dp"
+                        android:gravity="center"
+                        android:text="Contact"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        <Button
+            android:onClick="program"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bubble5"
+            android:text="กำหนดการ"
+            android:textColor="#000000" />
+    </LinearLayout>
+</LinearLayout>

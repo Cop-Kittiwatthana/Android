@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@drawable/b6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".History2">
+
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ประวัติความเป็นมา"
+            android:textSize="40dp"
+            android:fontFamily="@font/aschariya"
+            android:textColor="#ffffff"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/line1"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="280dp"
+                android:layout_height="172dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/ttb2" />
+        </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="334dp"
+        android:layout_height="309dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/line1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:text="      ส่วนความเชื่ออีกด้านหนึ่งเชื่อกันว่า “พ่อขุนผาเมือง” เจ้าเมืองราด ได้รับพระราชทานจาก “พระเจ้าชัยวรมันที่ 7” กษัตริย์นครธม ผู้เป็นพ่อตา ให้นำพระไปประดิษฐานเป็นพระคู่บ้านคู่เมือง ภายหลังอภิเษกสมรสกับ “พระนางสิงขรมหาเทวี” ราชธิดา แต่หลังจาก “พ่อขุนผาเมือง” ร่วมกับ “พ่อขุนบางกลางหาว” เจ้าเมืองบางยาง พระสหาย ยกทัพเข้ายึดครองกรุงสุโขทัย ทำให้ “พระนางสิงขรมหาเทวี” โกรธแค้นและเผาเมืองราด จากนั้นพระนางได้โดดลงแม่น้ำป่าสักปลงพระชนม์ชีพ เหล่าเสนาอำมาตย์ได้พากันอัญเชิญพระพุทธมหาธรรมราชา ลงแพล่องไปตามแม่น้ำป่าสัก เพื่อหนีเปลวเพลิง แต่เนื่องจากแม่น้ำป่าสักมีความคดเคี้ยวและเชี่ยวกราก ทำให้แพอัญเชิญแตก องค์พระเลยจมลงในแม่น้ำ กระทั่งต่อมากลุ่มคนหาปลาไปพบตามตำนานดังกล่าว\n\n"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+    </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/button2"
+                android:layout_width="67dp"
+                android:layout_height="68dp"
+                android:background="@drawable/back"
+                android:onClick="history" />
+
+            <ImageView
+                android:id="@+id/button3"
+                android:layout_width="67dp"
+                android:layout_height="68dp"
+                android:background="@drawable/home"
+                android:onClick="back" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
